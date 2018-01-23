@@ -1,0 +1,17 @@
+{
+  "name": "<your-package-name-here>",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"build": "babel src --out-dir lib",
+    "test": "mocha"
+  },
+  "author": "<your-name-here>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
